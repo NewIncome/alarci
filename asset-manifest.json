@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/alarci/static/css/main.74560e08.css",
+    "main.js": "/alarci/static/js/main.86d087da.js",
+    "static/js/787.3294af58.chunk.js": "/alarci/static/js/787.3294af58.chunk.js",
+    "static/media/AC-05.jpg": "/alarci/static/media/AC-05.c101562dd27634512165.jpg",
+    "static/media/var-07.jpg": "/alarci/static/media/var-07.bf1d0a3d2bc8b568cc2b.jpg",
+    "static/media/AC-02.jpg": "/alarci/static/media/AC-02.37e083c646978f408b7b.jpg",
+    "static/media/var-02.jpeg": "/alarci/static/media/var-02.7c299f08190b4eedff45.jpeg",
+    "static/media/AC-01.jpg": "/alarci/static/media/AC-01.a301ba39a27706081fe0.jpg",
+    "static/media/var-03.jpeg": "/alarci/static/media/var-03.292cf295ae0e1bb60e22.jpeg",
+    "static/media/var-05.jpg": "/alarci/static/media/var-05.0bf8337b122ad5c96836.jpg",
+    "static/media/logo.jpg": "/alarci/static/media/logo.cba52af6836e3e953579.jpg",
+    "static/media/var-04.jpeg": "/alarci/static/media/var-04.58485a6038811a779cad.jpeg",
+    "index.html": "/alarci/index.html",
+    "main.74560e08.css.map": "/alarci/static/css/main.74560e08.css.map",
+    "main.86d087da.js.map": "/alarci/static/js/main.86d087da.js.map",
+    "787.3294af58.chunk.js.map": "/alarci/static/js/787.3294af58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74560e08.css",
+    "static/js/main.86d087da.js"
+  ]
+}
