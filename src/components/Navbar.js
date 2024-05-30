@@ -1,4 +1,4 @@
-import logo from '../assets/logo.jpg';
+import logo from '../assets/hvac-icon-02.webp';
 import { Link } from 'react-router-dom';
 
 const Navbar = () =>
@@ -7,7 +7,6 @@ const Navbar = () =>
           <span className="navbar-toggler-icon" />
         </button>
         <Link to="/" className="navbar-brand">
-          Alarci
           <img className="logo" src={logo} alt="nav logo" />
         </Link>
         <div className="collapse navbar-collapse flex-grow-0" id="navbarTogglerDemo03">

@@ -15,7 +15,7 @@ const Contact = () => {
     const templateParams = {
       from_name: name,
       from_email: email,
-      to_name: 'Mi Eco Tiendita SITE',
+      to_name: 'Alarci SA de CV, sitio web',
       message: mssg
     };
 
@@ -65,7 +65,7 @@ const Contact = () => {
               onChange={e => setEmail(e.target.value)}
             />
             <small id="emailHelp" className="form-text text-muted">Debe ser un correo válido.</small>
-            <div className="custom-control custom-switch">
+            <div className="custom-control custom-switch mb-2">
               <input type="checkbox" className="custom-control-input" id="customSwitch1" />
               <label className="custom-control-label" for="customSwitch1">Urgente?</label>
             </div>

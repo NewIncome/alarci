@@ -4,10 +4,10 @@ import paypal from '../assets/paypal.png';
 import bitcoin from '../assets/bitcoin.png';
 
 const Footer = () =>
-  <footer id="Footer" className="d-flex flex-wrap text-light bg-success">
+  <footer id="Footer" className="d-flex flex-wrap text-light bg-primary">
     <div className="col-sm-7">
-      <p>© 2023 Productos artesanales naturales | <b>ALARCI SA de CV</b><small className="d-block">Todos los derechos reservados.</small></p>
-      <small className="">Desarrollado por <a href="https://jalfredev.com" className="dev" target="_blank" rel="noreferrer"> JAlfreDev</a></small>
+      <p>© 2006 Aire Acondicionado y Refrigeración | <b>ALARCI SA de CV</b><small className="d-block">Todos los derechos reservados.</small></p>
+      <small className="">Desarrollado por <a href="https://jalfredev.com" className="dev" target="_blank" rel="noreferrer"> JADev</a></small>
     </div>
     <div className="col-sm-5 text-sm-right d-flex flex-column">
       <div className="payments">

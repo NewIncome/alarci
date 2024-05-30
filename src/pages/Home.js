@@ -1,4 +1,4 @@
-import logo from '../assets/logo.jpg';
+import logo from '../assets/hvac-icon-02.webp';
 import facebook from '../assets/facebook-ico.png';
 import instagram from '../assets/instagram-ico.png';
 import youtube from '../assets/youtube-ico.png';
@@ -10,12 +10,12 @@ const Home = () =>
     <section id="Section1">
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to={0} className="" />
+          <li data-target="#myCarousel" data-slide-to={0} className="active" />
           <li data-target="#myCarousel" data-slide-to={1} className="" />
-          <li data-target="#myCarousel" data-slide-to={2} className="active" />
+          <li data-target="#myCarousel" data-slide-to={2} className="" />
         </ol>
         <div className="carousel-inner">
-          <div className="carousel-item">
+          <div className="carousel-item active">
             <div className="cr-img cr-1 d-block w-100" />
             <div className="container">
               <div className="carousel-caption text-left">
@@ -35,7 +35,7 @@ const Home = () =>
               </div>
             </div>
           </div>
-          <div className="carousel-item active">
+          <div className="carousel-item">
             <div className="cr-img cr-3 d-block w-100" />
             <div className="container">
               <div className="carousel-caption text-right">
@@ -115,24 +115,25 @@ const Home = () =>
       </div>
       <div className="contacto card col-sm-7 col-12 text-muted">
         <div className="card-body">
-          <h4 className="card-title text-success">Contacto</h4>
+          <h4 className="card-title text-primary">Contacto</h4>
           <h6 className="card-title text-muted">Dirección:</h6>
-          <p className="card-text">Av. Juarez #5, Tercera sección, San Pablo Etla, C.P. 68258, Oaxaca</p>
-          <h6 className="card-title text-muted">Teléfono:</h6>
-          <p className="card-text">951 349 0881</p>
+          <p className="card-text">Calle de las Rosas #48, Col. Santa Isabel Tola, Delegación Gustavo A. Madero, CDMX</p>
+          <h6 className="card-title text-muted">Teléfonos:</h6>
+          <p className="card-text mb-1">55 5458 8637</p>
+          <p className="card-text">55 9240 1958</p>
           <h6 className="card-title text-muted">Horario de Atención:</h6>
           <p className="card-text">De Lunes a Viernes de 09:00 a 18:00 horas</p>
         </div>
         <div className="row mt-4">
           <ul className="social list-unstyled d-flex w-75">
-            <li><a className="facebook social-link" title="Facebook" href="https://www.facebook.com/people/Mi-eco-tiendita/100083322015770" target="_blank" rel="noreferrer noopener">
+            <li><a className="facebook social-link" title="Facebook" href="#" target="_blank" rel="noreferrer noopener">
                 <img className="social-ico" src={facebook} alt="facebook link" />
               </a></li>
-            <li><a className="instagram social-link" title="Instagram" href="https://www.instagram.com/mi_eco_tiendita/" target="_blank" rel="noreferrer noopener">
+            <li><a className="instagram social-link" title="Instagram" href="#" target="_blank" rel="noreferrer noopener">
                 <img className="social-ico" src={instagram} alt="instagram link" />
               </a></li>
             <li data-toggle="tooltip" data-placement="top" title="Próximamente">
-              <a className="youtube social-link pending-link" title="Youtube" href="https://www.youtube.com/channel/" target="_blank" rel="noreferrer noopener">
+              <a className="youtube social-link pending-link" title="Youtube" href="#" target="_blank" rel="noreferrer noopener">
                 <img className="social-ico pending-ico" src={youtube} alt="youtube link" />
               </a>
             </li>
