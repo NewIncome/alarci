@@ -1,3 +1,4 @@
+import header from '../assets/AC-Repair3.jpg';
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 const creds = require('../utils/config');
@@ -36,10 +37,12 @@ const Contact = () => {
 
   return (
     <div className="contact px-5">
-      <h2 className="prods-title text-center mb-5 pt-4">
-        <b>Contacto</b>
-        <hr className="h-line bar" />
-      </h2>
+      <div className="section-header contact-h">
+        {/*< img src={header} className="section-header-img" alt="Contact Header" />*/}
+        <h2 className="prods-title text-center mb-5 pt-4">
+          <b>Contáctanos</b>
+        </h2>
+      </div>
 
       <div className="form-div">
         <form onSubmit={handleSubmit}>

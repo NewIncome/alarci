@@ -56,13 +56,20 @@ const Home = () =>
         </a>
       </div>
     </section>
-    {/* ----- Section 2 - Nosotros ----- */}
-    <section id="Section2" className="">
+    {/* ----- Section 2 - Contactanos ----- */}
+    <section id="Section2" className="container">
+      <div className="d-md-flex text-md-left text-center justify-content-md-between">
+        <h2 className="h2-contact-btn">Cuéntenos de su proyecto y con gusto le asistiremos.</h2>
+        <a href="#" className="btn btn-primary btn-lg align-self-center" role="button" aria-pressed="true">Ponte en contacto</a>
+      </div>
+    </section>
+    {/* ----- Section 3 - Nosotros ----- */}
+    <section id="Section3" className="">
       <h2 className="pb-4">¿Quienes somos?</h2>
       <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </section>
-    {/* ----- Section 3 - Categorías ----- */}
-    <section id="Section3" className="container vh-100 d-flex flex-column px-5">
+    {/* ----- Section 3 - Testimonios ----- */}
+    <section id="Section4" className="container vh-100 d-flex flex-column px-5">
       <h1 className="sec3-h text-center">
         <b>Cat</b><b className="h-line">egor</b><b>ías</b>
       </h1>
@@ -94,8 +101,8 @@ const Home = () =>
         </Link>
       </div>
     </section>
-    {/* ----- Section 4 - Catálogo ----- */}
-    <section id="Section4" className="">
+    {/* ----- Section 4 - Nuestros Servicios ----- */}
+    <section id="Section5" className="">
       <h1 className="pb-4">
         <b>Ca</b><b className="h-line">tálo</b><b>go</b>
       </h1>
@@ -108,7 +115,7 @@ const Home = () =>
       </div>
     </section>
     {/* ----- Section 5 - Contacto ----- */}
-    <section id="Section5">
+    <section id="Section6">
       <div className="contact-text card col-5 p-5">
         <img src={logo} className="sec-img-5 card-img-top" alt="logo" />
         <p className="card-text pt-3 text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -120,7 +127,9 @@ const Home = () =>
           <p className="card-text">Calle de las Rosas #48, Col. Santa Isabel Tola, Delegación Gustavo A. Madero, CDMX</p>
           <h6 className="card-title text-muted">Teléfonos:</h6>
           <p className="card-text mb-1">55 5458 8637</p>
-          <p className="card-text">55 9240 1958</p>
+          <p className="card-text mb-1">55 9240 1958</p>
+          <p className="card-text mb-1">55 4271 7127</p>
+          <p className="card-text">55 4206 3240</p>
           <h6 className="card-title text-muted">Horario de Atención:</h6>
           <p className="card-text">De Lunes a Viernes de 09:00 a 18:00 horas</p>
         </div>

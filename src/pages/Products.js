@@ -11,29 +11,30 @@ const Products = props => {
   
   return (
     <>
+    <div className="heading">
       <h2 className="prods-title text-center mb-5 pt-4">
-        <b>{caps_first_letter(title)}</b>
-        <hr className="h-line bar" />
+        <b>MÁS DE 35 AÑOS DE EXPERIENCIA EN SERVICIOS DE AIRE ACONDICIONADO</b>
       </h2>
-      <div className="products d-flex justify-content-center">
-        <ul className="ul-box d-flex flex-wrap p-0">
-          {products.map(prod => (
-            <li className="product card" key={`key-${prod.name}`}>
-              <Link
-                to={`/${title}/${prod.path}`}
-                className="product-link card-body pb-0"
-              >
-                <div className="prod-frame d-flex justify-content-center">
-                  <img src={prod.img} alt="" className="prod-img w-100" />
-                </div>
-                <div className="prod-info text-center">
-                  <h5 className="prod-name">{prod.name}<span className='p-line'>&#x2015;</span><span className="price">$ {prod.price}</span></h5>
-                </div>
-              </Link>
-            </li>
-            ))}
-        </ul>
-      </div>
+    </div>
+    <div className="products d-flex justify-content-center">
+      <ul className="ul-box d-flex flex-wrap p-0">
+        {products.map(prod => (
+          <li className="product card" key={`key-${prod.name}`}>
+            <Link
+              to={`/${title}/${prod.path}`}
+              className="product-link card-body pb-0"
+            >
+              <div className="prod-frame d-flex justify-content-center">
+                <img src={prod.img} alt="" className="prod-img w-100" />
+              </div>
+              <div className="prod-info text-center">
+                <h5 className="prod-name">{prod.name}<span className='p-line'>&#x2015;</span><span className="price">$ {prod.price}</span></h5>
+              </div>
+            </Link>
+          </li>
+          ))}
+      </ul>
+    </div>
     </>
   );
 }

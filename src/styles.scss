@@ -17,7 +17,23 @@ $font-noto-sans: 'Noto Sans', sans-serif;
     width: 56px;
   }
 }
-#Section2, #Section4 {
+
+#Section1 {
+  margin-top: -110px; // (=navbar Height)
+}
+#Section2 {
+  padding: 4rem 0;
+
+  .h2-contact-btn {
+    line-height: 3rem;
+  }
+
+  a {
+    height: 50px;
+    width: 214px;
+  }
+}
+#Section3, #Section5 {
   text-align: center;
   padding: 110px 90px 150px;
 }
@@ -64,48 +80,48 @@ $font-noto-sans: 'Noto Sans', sans-serif;
     color: #333 !important;
   }
 }
-#Section3 .sec3-h {
+#Section4 .sec3-h {
   padding-bottom: 55px;
 }
-#Section3 .cs {
+#Section4 .cs {
   color: #f5f1ff;
   cursor: pointer;
   text-shadow: 1px 1px 2px black;
   opacity: 0.7;
   transition: all 0.8s ease;
 }
-#Section3 .cs:hover {
+#Section4 .cs:hover {
   opacity: 0.9;
   text-decoration: none;
 }
-#Section3 .c1 {
+#Section4 .c1 {
   background: no-repeat 6% 12%/105% url(assets/var-03.jpeg);
 }
-#Section3 .c1:hover {
+#Section4 .c1:hover {
   background: no-repeat 6% 12%/107% url(assets/var-03.jpeg);
 }
-#Section3 .c2 {
+#Section4 .c2 {
   background: no-repeat 6% 12%/105% url(assets/var-04.jpeg);
 }
-#Section3 .c2:hover {
+#Section4 .c2:hover {
   background: no-repeat 6% 12%/107% url(assets/var-04.jpeg);
 }
-#Section3 .c3 {
+#Section4 .c3 {
   background: no-repeat 6% 12%/105% url(assets/var-05.jpg);
 }
-#Section3 .c3:hover {
+#Section4 .c3:hover {
   background: no-repeat 6% 12%/107% url(assets/var-05.jpg);
 }
-#Section3 .c4 {
+#Section4 .c4 {
   background: no-repeat 6% 46%/120% url(assets/var-03.jpeg);
 }
-#Section3 .c4:hover {
+#Section4 .c4:hover {
   background: no-repeat 6% 46%/122% url(assets/var-03.jpeg);
 }
-#Section3 .c5 {
+#Section4 .c5 {
   background: no-repeat 6% 46%/120% url(assets/var-04.jpeg);
 }
-#Section3 .c5:hover {
+#Section4 .c5:hover {
   background: no-repeat 6% 46%/122% url(assets/var-04.jpeg);
 }
 .v-center {
@@ -113,17 +129,17 @@ $font-noto-sans: 'Noto Sans', sans-serif;
   align-items: center;
   justify-content: center;
 }
-#Section5 .card {
+#Section6 .card {
   padding: 5rem !important;
 }
-#Section5 .sec-img-5 {
+#Section6 .sec-img-5 {
   margin: 10% auto 0;
   width: 230px;
 }
-#Section5 h4, h6{
+#Section6 h4, h6{
   font-weight: bold;;
 }
-#Section5 h4 {
+#Section6 h4 {
   color: #218838;
 }
 .social {
@@ -208,7 +224,7 @@ $font-noto-sans: 'Noto Sans', sans-serif;
 }
 .core {
   flex-grow: 1;
-  margin-top: 81.36px;
+  margin-top: 110px; //81.36px
   z-index: 0;
 }
 #error-page {
@@ -216,10 +232,6 @@ $font-noto-sans: 'Noto Sans', sans-serif;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-}
-
-#Section1 {
-  margin-top: -81.36px; // (=navbar Height)
 }
 
 @media screen and (max-width: 576px) {
@@ -284,7 +296,7 @@ $font-noto-sans: 'Noto Sans', sans-serif;
   .carousel-caption {
     bottom: 25% !important;
   }
-  #Section5{
+  #Section6{
     display: flex;
   }
   .payments {
@@ -455,16 +467,16 @@ $font-noto-sans: 'Noto Sans', sans-serif;
     }
   }
 
-  #Section2, #Section4 {
+  #Section3, #Section5 {
     padding: 50px 20px 80px;
   }
 
-  #Section3 {
+  #Section4 {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
   
-  #Section5 {
+  #Section6 {
     .contacto { padding: 10px 0 30px !important; }
   }
 
@@ -474,7 +486,36 @@ $font-noto-sans: 'Noto Sans', sans-serif;
   }
 }
 
+/*.contact-h {
+  background: no-repeat 6% 46%/122% url(assets/AC-Repair3.jpg);
+}*/
+
 .contact {
+  .contact-h {
+    background:
+     linear-gradient(#3336, #3336),
+     url(assets/AC-Repair3.jpg) 0/100% 200% no-repeat; //bottom center no-repeat;
+     height: 350px;
+     margin-bottom: 50px;
+
+     .prods-title {
+       color: #eee;
+       font-size: 2.6rem;
+       line-height: 8;
+     }
+  }
+
+  /*.contact-h {
+    height: 350px;
+
+    .section-header-img {
+      width: 100% !important;
+      height: inherit;
+      object-fit: cover;
+      filter: brightness(0.85);
+    }
+  }*/
+
   .form-div {
     max-width: 640px;
     margin: auto;
@@ -523,5 +564,5 @@ $font-noto-sans: 'Noto Sans', sans-serif;
   }
 }
 .dropdown-menu {
-  background-color: #fffd;
+  background-color: rgba(201, 222, 254, 0.74);
 }
