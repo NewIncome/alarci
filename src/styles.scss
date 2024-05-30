@@ -34,8 +34,14 @@
   background-color: rgb(206, 82, 32);
   border-color: rgb(206, 82, 32);
 }
-.cr-1, .cr-2, .cr-3{
-  background: no-repeat top/cover url(assets/var-02.jpeg);
+.cr-1 {
+  background: no-repeat top/cover url(assets/AC-01.jpg);
+}
+.cr-2 {
+  background: no-repeat top/cover url(assets/AC-02.jpg);
+}
+.cr-3 {
+  background: no-repeat top/cover url(assets/AC-05.jpg);
 }
 .cr-img{
   height: 100vh;

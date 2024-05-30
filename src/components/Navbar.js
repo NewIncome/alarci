@@ -7,6 +7,7 @@ const Navbar = () =>
           <span className="navbar-toggler-icon" />
         </button>
         <Link to="/" className="navbar-brand">
+          Alarci
           <img className="logo" src={logo} alt="nav logo" />
         </Link>
         <div className="collapse navbar-collapse flex-grow-0" id="navbarTogglerDemo03">
