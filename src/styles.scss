@@ -20,6 +20,14 @@ $font-noto-sans: 'Noto Sans', sans-serif;
 
 #Section1 {
   margin-top: -110px; // (=navbar Height)
+
+  .btn {
+    vertical-align: text-bottom !important;
+  }
+
+  .h-c-2, .h-c-3, .b-c-3 {
+    text-shadow: 2px 2px 2px #333;
+  }
 }
 #Section2 {
   padding: 4rem 0;
@@ -49,7 +57,7 @@ $font-noto-sans: 'Noto Sans', sans-serif;
 }
 .bg-org{
   color: #fff;
-  background-color: rgb(249, 235, 230);
+  background-color: rgb(240, 86, 25);
   border-color: rgb(240, 86, 25);
 }
 .bg-org:hover{

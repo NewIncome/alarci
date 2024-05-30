@@ -19,9 +19,9 @@ const Home = () =>
             <div className="cr-img cr-1 d-block w-100" />
             <div className="container">
               <div className="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a className="btn btn-lg btn-secondary" href="#" role="button">Sign up today</a></p>
+                <h1>Empresa líder en equipos de A/C</h1>
+                <p>Diseño, fabricación e instalación</p>
+                <p><a className="btn btn-lg btn-primary" href="#" role="button">Conoce más</a></p>
               </div>
             </div>
           </div>
@@ -29,9 +29,9 @@ const Home = () =>
             <div className="cr-img cr-2 d-block w-100" />
             <div className="container">
               <div className="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a className="btn btn-lg btn-success" href="#" role="button">Learn more</a></p>
+                <h1 className="h-c-3">Equipos de la más álta calidad</h1>
+                <p></p>
+                <p><a className="btn btn-lg btn-success" href="#" role="button">Ver proveedores</a></p>
               </div>
             </div>
           </div>
@@ -39,9 +39,9 @@ const Home = () =>
             <div className="cr-img cr-3 d-block w-100" />
             <div className="container">
               <div className="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a className="btn btn-lg bg-org" href="#" role="button">Browse gallery</a></p>
+                <h1 className="h-c-3">Servicio de excelencia a nivel industrial</h1>
+                <p className="b-c-3">Certificados y regidos por normas gubernamentales</p>
+                <p><a className="btn btn-lg bg-org" href="#" role="button">Nuestros proyectos</a></p>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Home = () =>
       </div>
     </section>
     {/* ----- Section 3 - Nosotros ----- */}
-    <section id="Section3" className="">
+    <section id="Section3" className="container">
       <h2 className="pb-4">¿Quienes somos?</h2>
       <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </section>
