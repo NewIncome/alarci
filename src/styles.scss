@@ -4,6 +4,7 @@ $font-free: FreeMono, monospace;
 $font-mono: monospace;
 $font-gill-sans: 'Gill Sans', sans-serif;
 $font-noto-sans: 'Noto Sans', sans-serif;
+$white-ish: #c4c4c4;
 
 .container {
   max-width: 1560px !important;
@@ -280,6 +281,12 @@ $font-noto-sans: 'Noto Sans', sans-serif;
 .dev:hover {
   color: #cbecd2;
   text-shadow: 1px 1px gray;
+}
+.payments {
+  .cards {
+    filter: grayscale(1) opacity(.4);
+    width: 32px;
+  }
 }
 
 #root {
@@ -559,7 +566,7 @@ $font-noto-sans: 'Noto Sans', sans-serif;
   .contact-h {
     background:
      linear-gradient(#3336, #3336),
-     url(assets/AC-Repair3.jpg) 0/100% 200% no-repeat; //bottom center no-repeat;
+     url(assets/AC-Repair3.jpg) 0/100% 230% no-repeat; //bottom center no-repeat;
      height: 350px;
      margin-bottom: 50px;
 
@@ -630,4 +637,199 @@ $font-noto-sans: 'Noto Sans', sans-serif;
 }
 .dropdown-menu {
   background-color: rgba(201, 222, 254, 0.74);
+}
+
+// ******************** Section 6 styles ******************
+%bttn {
+  border: 2px solid #95dab4;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+.block {
+  background-color: #e4e4e4;
+  margin: 0 auto;
+  min-height: 30vh;
+  padding: 30px 10% 40px;
+  width: 100%;
+  .h1 { font-size: 3em; }
+  .h2 { font-size: 2.5em; }
+  .p { font-size: 1.5rem; }
+}
+
+.project {
+  background-color: #fbfbfb;
+  border: 1px solid #000;
+  box-shadow: 2px 2.5px 7px 3px $white-ish;
+  display: flex;
+  margin: 40px auto;
+  position: relative;
+
+  @media screen and (min-width: 425px) {
+    max-width: 90%;
+    max-height: 380px;
+  }
+
+  .prj-left {
+    background-color: #2d2a2a;
+    height: 100%;
+    min-height: 350px;
+    overflow: hidden;
+    position: relative;
+    width: 35%;
+
+    img {
+      left: -125px;
+      max-width: 786px;
+      position: relative;
+
+      @media screen and (max-width: 1200px) {
+        left: 0 !important;
+        width: 100%;
+      }
+    }
+
+    .blur {
+      background: linear-gradient(90deg, #fff0 50%, #c1c1c150 65% 65%, #fbfbfb 95%);
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 20%;
+
+      @media screen and (max-width: 1200px) {
+        background: linear-gradient(0deg, #fff0 50%, #c1c1c150 65% 65%, #fbfbfb 95%);
+        height: 20%;
+        width: 100%;
+        z-index: 1;
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      background-color: #fff;
+      margin: 10px auto;
+      width: 95%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column-reverse;
+  }
+
+  .prj-right {
+    margin: 0 auto;
+    padding: 10px 35px;
+    position: relative;
+    width: 65%;
+
+    .h3 { font-size: 1.8em; }
+
+    .p { margin-bottom: 5px !important; }
+
+    @media screen and (max-width: 1200px) {
+      min-width: 80%;
+      padding: 0;
+
+      .p { font-size: 1em; }
+    }
+
+    & > * { margin: 10px 0; }
+
+    .prj-codes {
+      .code {
+        @extend %bttn;
+
+        display: inline-block;
+        margin-top: 5px;
+      }
+    }
+
+    .prj-bttns { display: flex; }
+
+    & a {
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0.5px 1px 1.5px 0.5px $white-ish;
+      display: inline-flex;
+      font-size: 0.8em;
+      padding: 8px 10px;
+
+      &:hover {
+        box-shadow: 2px 2.5px 1.5px 0.5px $white-ish;
+        transform: translateY(1px);
+      }
+
+      span { align-self: center; }
+    }
+
+    .s-ico { width: 17px; }
+
+    .bttn-l {
+      background-color: #02a0d9;
+      color: #fff;
+
+      .s-ico { margin-left: 7px; }
+    }
+
+    .bttn-s {
+      background-color: #fbfbfb;
+      color: #02a0d9;
+      margin-left: 10px;
+
+      .s-ico { margin-right: 7px; }
+    }
+  }
+}
+
+#prj2,
+#prj4,
+#prj6,
+#prj8 {
+  .blur {
+    @media screen and (min-width: 1200px) {
+      background: linear-gradient(-90deg, #fff0 50%, #c1c1c150 65% 65%, #fbfbfb 95%);
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+    } }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.project .prj-right {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.i { margin-top: 0 !important; }
+
+.co-op {
+  bottom: 0;
+  color: #848484;
+  font-family: 'Parisienne', cursive !important;
+  font-size: 1.2em;
+  position: absolute;
+  right: 35px;
+
+  @media screen and (max-width: 846px) {
+    bottom: -28px;
+    font-size: 1em;
+    right: -10%;
+  }
+}
+
+#prj2 .h3 {
+  margin-bottom: 5px !important;
+}
+
+#prj3 img {
+  @media screen and (min-width: 1200px) {
+    left: -166px;
+  }
 }

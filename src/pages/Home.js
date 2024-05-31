@@ -1,6 +1,11 @@
 import logo from '../assets/hvac-icon-02.webp';
 //import team from '../assets/hvac-team-01.jpg';
 import case1 from '../assets/hvac-case-01.webp';
+import prj1 from '../assets/prj-01.jpg';
+import prj2 from '../assets/prj-02.jpg';
+import prj3 from '../assets/prj-03.jpg';
+import prj4 from '../assets/prj-04.jpg';
+import prj5 from '../assets/prj-05.jpg';
 import facebook from '../assets/facebook-ico.png';
 import instagram from '../assets/instagram-ico.png';
 import youtube from '../assets/youtube-ico.png';
@@ -95,15 +100,15 @@ const Home = () =>
       </div>
     </section>
     {/* ----- Section 4 - Testimonios ----- */}
-    <section id="Section4" className="pt-5">
-      <div className="container vh-100">
-        <div className="header text-center py-4">
+    <section id="Section4" className="pt-5 px-md-5">
+      <div className="container pb-5">
+        <div className="header text-center pb-4">
           <h1 className="sec3-h">
             <b>Nue</b><b className="h-line">stros clien</b><b>tes</b>
           </h1>
           <p className="sec4-p">Los siguientes son algunos de nuestros proyectos terminados</p>
         </div>
-        <div className="cards row w-100 align-content-between justify-content-between">
+        <div className="cards row w-100 align-content-between justify-content-between pb-4">
           <div className="card">
             <img className="card-img-top" src={case1} alt="Card image cap" />
             <div className="card-body">
@@ -140,14 +145,99 @@ const Home = () =>
     {/* ----- Section 5 - Nuestros Servicios ----- */}
     <section id="Section5" className="">
       <h1 className="pb-4">
-        <b>Ca</b><b className="h-line">tálo</b><b>go</b>
+        <b>Nue</b><b className="h-line">stros Servic</b><b>ios</b>
       </h1>
-      <div className="rt">
-        <p className="">Si deseas descargar nuestro catálogo de productos da clic en el siguiente botón</p>
-        <button type="button" className="dwnld btn btn-warning pb-2 mb-3">
-          Descargar Catálogo
-        </button>
-        <p className="">o si solo quieres visualizarlo te lo mostramos a continuación(próximamente)</p>
+      <div className="row">
+        <div className="project" id="prj1">
+          <div className="prj-left">
+            <img src={prj1} alt="" />
+            <span className="blur"></span>
+          </div>
+          <div className="prj-right">
+          <h3 className="h3 prj-title">Flujo Laminar</h3><i>Tipos de sitios</i>
+            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className="prj-codes">
+              <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
+                <span>Más información </span>
+                <img src="" alt="" className="s-ico" />
+              </a>
+            </div>
+            <div className="co-op">Detalle addicional</div>
+          </div>
+        </div>
+
+        <div className="project"  id="prj2">
+          <div className="prj-right">
+            <h3 className="h3 prj-title">Extracción</h3><i>Tipos de sitios</i>
+            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className="prj-codes">
+              <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
+                <span>Más información </span>
+                <img src="" alt="" className="s-ico" />
+              </a>
+            </div>
+            <div className="co-op">Detalle addicional</div>
+          </div>
+          <div className="prj-left">
+            <span className="blur"></span>
+            <img src={prj2} alt="" />
+          </div>
+        </div>
+
+        <div className="project" id="prj1">
+          <div className="prj-left">
+            <img src={prj3} alt="" />
+            <span className="blur"></span>
+          </div>
+          <div className="prj-right">
+          <h3 className="h3 prj-title">Chillers</h3><i>Tipos de sitios</i>
+            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className="prj-codes">
+              <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
+                <span>Más información </span>
+                <img src="" alt="" className="s-ico" />
+              </a>
+            </div>
+            <div className="co-op">Detalle addicional</div>
+          </div>
+        </div>
+
+        <div className="project"  id="prj2">
+          <div className="prj-right">
+            <h3 className="h3 prj-title">Aire Acondicionado</h3><i>Tipos de sitios</i>
+            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className="prj-codes">
+              <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
+                <span>Más información </span>
+                <img src="" alt="" className="s-ico" />
+              </a>
+            </div>
+            <div className="co-op">Detalle addicional</div>
+          </div>
+          <div className="prj-left">
+            <span className="blur"></span>
+            <img src={prj4} alt="" />
+          </div>
+        </div>
+
+        <div className="project" id="prj1">
+          <div className="prj-left">
+            <img src={prj5} alt="" />
+            <span className="blur"></span>
+          </div>
+          <div className="prj-right">
+          <h3 className="h3 prj-title">Equipos de Precisión</h3><i>Tipos de sitios</i>
+            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className="prj-codes">
+              <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
+                <span>Más información </span>
+                <img src="" alt="" className="s-ico" />
+              </a>
+            </div>
+            <div className="co-op">Detalle addicional</div>
+          </div>
+        </div>
+
       </div>
     </section>
     {/* ----- Section 6 - Contacto ----- */}
