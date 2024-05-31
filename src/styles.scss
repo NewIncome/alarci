@@ -5,6 +5,10 @@ $font-mono: monospace;
 $font-gill-sans: 'Gill Sans', sans-serif;
 $font-noto-sans: 'Noto Sans', sans-serif;
 
+.container {
+  max-width: 1560px !important;
+}
+
 .navbar {
   min-height: 80px;
   position: absolute;
@@ -46,7 +50,7 @@ $font-noto-sans: 'Noto Sans', sans-serif;
   padding: 110px 90px 150px;
 }
 .h-line {
-  border-bottom: 1px black solid;
+  border-bottom: 1px #fea solid;
   padding-bottom: 10px;
 }
 .vh-100 {
@@ -87,6 +91,48 @@ $font-noto-sans: 'Noto Sans', sans-serif;
   &:hover {
     color: #333 !important;
   }
+}
+#Section3 {
+  /*.jumbotron {
+    background:
+        linear-gradient(rgba(164, 164, 164, 0.4), rgba(93, 93, 93, 0.4)),
+        url(assets/ac-place.jpeg) 0/100% 200% no-repeat; //bottom center no-repeat;
+
+    p {
+      text-shadow: 2px 2px 2px #ddd;
+    }
+  }*/
+  /*.card { 
+
+    h5 {
+      font-size: 2rem;
+    }
+    .card-left {
+      background:
+        linear-gradient(rgba(21, 21, 21, 0.4), #3336),
+        url(assets/hvac-team-02.jpg) 0/100% 200% no-repeat; //bottom center no-repeat;
+      
+        h5 {
+          text-shadow: 2px 2px 2px #333;
+        }
+
+        .c-l-p {
+          font-size: 1.2rem !important;
+
+          .ct-p {
+            padding: 12px 0;
+          }
+        }
+    }
+
+    .card-right {
+      .c-r-text {
+        background: linear-gradient(#fea, #eee);
+        border-radius: 30px;
+        margin-bottom: 10px;
+      }
+    }
+  }*/
 }
 #Section4 .sec3-h {
   padding-bottom: 55px;

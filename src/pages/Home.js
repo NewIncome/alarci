@@ -1,4 +1,5 @@
 import logo from '../assets/hvac-icon-02.webp';
+import team from '../assets/hvac-team-01.jpg';
 import facebook from '../assets/facebook-ico.png';
 import instagram from '../assets/instagram-ico.png';
 import youtube from '../assets/youtube-ico.png';
@@ -59,14 +60,38 @@ const Home = () =>
     {/* ----- Section 2 - Contactanos ----- */}
     <section id="Section2" className="container">
       <div className="d-md-flex text-md-left text-center justify-content-md-between">
-        <h2 className="h2-contact-btn">Cuéntenos de su proyecto y con gusto le asistiremos.</h2>
+        <h2 className="h2-contact-btn">Cuéntanos de tu proyecto y con gusto te asistiremos.</h2>
         <a href="#" className="btn btn-primary btn-lg align-self-center" role="button" aria-pressed="true">Ponte en contacto</a>
       </div>
     </section>
     {/* ----- Section 3 - Nosotros ----- */}
-    <section id="Section3" className="container">
-      <h2 className="pb-4">¿Quienes somos?</h2>
-      <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <section id="Section3" className="container px-0 pt-0 rounded">
+      {/*<div className="card flex-row-reverse w-100 border-0">
+        <div className="card-body card-left rounded text-white text-left ml-3 p-5">
+          <h5 className="card-title"><b className="h-line">Hacemos de tus espacios un lugar más cómodo</b></h5>
+          <div className="c-l-p card-text pt-3">
+            <p className="ct-p">¿Tienes un proyecto de aire acondicionado?</p>
+            <p className="ct-p">En Tecnoclima podemos ayudarte, ya que somos una empresa con más de 35 años de experiencia en la elaboración de proyectos de ingeniería de climatización para aplicaciones residenciales, comerciales e industriales.</p>
+            <p className="ct-p">Brindamos el servicio de suministro, instalación, mantenimiento y reparación de equipos de aire acondicionado, ductos de aire acondicionado, sistemas de extracción, sistemas de y ventilación y/o sistemas de refrigeración.</p>
+          </div>
+        </div>
+        <div className="card-img-top card-right">
+          <div className="c-r-text card-body rounded">
+            <h5 className="card-title">Aire Acondicionado con Alarci</h5>
+            <p className="card-text">Conoce las soluciones en aire acondicionado y climatización que tenemos para tu empresa, industria, hogar u oficina.</p>
+          </div>
+          <img className="c-r-img card-img-top rounded" src={team} alt="Card image cap"/>
+        </div>
+      </div>*/}
+      <div class="jumbotron">
+        <h1 class="display-4 mb-5">¿Tienes un proyecto de aire acondicionado?</h1>
+        <p class="lead">En Tecnoclima podemos ayudarte, ya que somos una empresa con más de 35 años de experiencia en la elaboración de proyectos de ingeniería de climatización para aplicaciones residenciales, comerciales e industriales.</p>
+        <hr class="my-5" />
+        <p>Brindamos el servicio de suministro, instalación, mantenimiento y reparación de equipos de aire acondicionado, ductos de aire acondicionado, sistemas de extracción, sistemas de y ventilación y/o sistemas de refrigeración.</p>
+        <p class="lead my-4">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Conocenos</a>
+        </p>
+      </div>
     </section>
     {/* ----- Section 3 - Testimonios ----- */}
     <section id="Section4" className="container vh-100 d-flex flex-column px-5">
