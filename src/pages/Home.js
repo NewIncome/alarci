@@ -106,10 +106,10 @@ const Home = () =>
           <h1 className="sec3-h">
             <b>Nue</b><b className="h-line">stros clien</b><b>tes</b>
           </h1>
-          <p className="sec4-p">Los siguientes son algunos de nuestros proyectos terminados</p>
+          <p className="sec4-p pt-3">Los siguientes son algunos de nuestros proyectos terminados</p>
         </div>
-        <div className="cards row w-100 align-content-between justify-content-between pb-4">
-          <div className="card">
+        <div className="cards d-md-flex flex-wrap w-100 align-content-between justify-content-between pb-4">
+          <div className="card mb-3">
             <img className="card-img-top" src={case1} alt="Card image cap" />
             <div className="card-body">
               <h5 className="card-title">Proyecto X</h5>
