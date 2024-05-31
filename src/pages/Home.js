@@ -62,7 +62,7 @@ const Home = () =>
     <section id="Section2" className="container">
       <div className="d-md-flex text-md-left text-center justify-content-md-between">
         <h2 className="h2-contact-btn">Cuéntanos de tu proyecto y con gusto te asistiremos.</h2>
-        <a href="#" className="btn btn-primary btn-lg align-self-center" role="button" aria-pressed="true">Ponte en contacto</a>
+        <a href="#" className="btn btn-warning btn-lg align-self-center" role="button" aria-pressed="true">Ponte en contacto</a>
       </div>
     </section>
     {/* ----- Section 3 - Nosotros ----- */}
@@ -90,47 +90,49 @@ const Home = () =>
         <hr class="my-5" />
         <p>Brindamos el servicio de suministro, instalación, mantenimiento y reparación de equipos de aire acondicionado, ductos de aire acondicionado, sistemas de extracción, sistemas de y ventilación y/o sistemas de refrigeración.</p>
         <p class="lead my-4">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Conocenos</a>
+          <a class="btn btn-danger btn-lg" href="#" role="button">Conocenos</a>
         </p>
       </div>
     </section>
     {/* ----- Section 4 - Testimonios ----- */}
-    <section id="Section4" className="container vh-100">
-      <div className="header text-center">
-        <h1 className="sec3-h">
-          <b>Nue</b><b className="h-line">stros clien</b><b>tes</b>
-        </h1>
-        <p className="sec4-p">Los siguientes son algunos de nuestros proyectos terminados</p>
-      </div>
-      <div className="cards row w-100 align-content-between justify-content-between">
-        <div className="card">
-          <img className="card-img-top" src={case1} alt="Card image cap" />
-          <div className="card-body">
-            <h5 className="card-title">Proyecto X</h5>
-            <h6 className="card-subtitle mb-2 text-muted">Fecha o referencia</h6>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
-          </div>
+    <section id="Section4" className="pt-5">
+      <div className="container vh-100">
+        <div className="header text-center py-4">
+          <h1 className="sec3-h">
+            <b>Nue</b><b className="h-line">stros clien</b><b>tes</b>
+          </h1>
+          <p className="sec4-p">Los siguientes son algunos de nuestros proyectos terminados</p>
         </div>
-        <div className="card">
-          <img className="card-img-top" src={case1} alt="Card image cap" />
-          <div className="card-body">
-            <h5 className="card-title">Proyecto Y</h5>
-            <h6 className="card-subtitle mb-2 text-muted">Fecha o referencia</h6>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+        <div className="cards row w-100 align-content-between justify-content-between">
+          <div className="card">
+            <img className="card-img-top" src={case1} alt="Card image cap" />
+            <div className="card-body">
+              <h5 className="card-title">Proyecto X</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Fecha o referencia</h6>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" className="card-link">Card link</a>
+              <a href="#" className="card-link">Another link</a>
+            </div>
           </div>
-        </div>
-        <div className="card">
-          <img className="card-img-top" src={case1} alt="Card image cap" />
-          <div className="card-body">
-            <h5 className="card-title">Proyecto Z</h5>
-            <h6 className="card-subtitle mb-2 text-muted">Fecha o referencia</h6>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+          <div className="card">
+            <img className="card-img-top" src={case1} alt="Card image cap" />
+            <div className="card-body">
+              <h5 className="card-title">Proyecto Y</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Fecha o referencia</h6>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" className="card-link">Card link</a>
+              <a href="#" className="card-link">Another link</a>
+            </div>
+          </div>
+          <div className="card">
+            <img className="card-img-top" src={case1} alt="Card image cap" />
+            <div className="card-body">
+              <h5 className="card-title">Proyecto Z</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Fecha o referencia</h6>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" className="card-link">Card link</a>
+              <a href="#" className="card-link">Another link</a>
+            </div>
           </div>
         </div>
       </div>
