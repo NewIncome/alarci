@@ -8,6 +8,9 @@ $font-noto-sans: 'Noto Sans', sans-serif;
 .container {
   max-width: 1560px !important;
 }
+.card {
+  min-width: 18rem;
+}
 
 .navbar {
   min-height: 80px;
@@ -50,7 +53,7 @@ $font-noto-sans: 'Noto Sans', sans-serif;
   padding: 110px 90px 150px;
 }
 .h-line {
-  border-bottom: 1px #fea solid;
+  border-bottom: 1px #000 solid;
   padding-bottom: 10px;
 }
 .vh-100 {
@@ -115,6 +118,9 @@ $font-noto-sans: 'Noto Sans', sans-serif;
         h5 {
           text-shadow: 2px 2px 2px #333;
         }
+        .h-line {
+          border-bottom: 1px #fea solid;
+        }
 
         .c-l-p {
           font-size: 1.2rem !important;
@@ -134,50 +140,31 @@ $font-noto-sans: 'Noto Sans', sans-serif;
     }
   }*/
 }
-#Section4 .sec3-h {
-  padding-bottom: 55px;
+#Section4 {
+  .cards {
+    .card {
+      width: calc((100%/3) - 20px) !important;
+    }
+  }
+  /*.sec3-h {
+    padding-bottom: 55px;
+  }
+
+  .cs {
+    color: #f5f1ff;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px black;
+    opacity: 0.7;
+    transition: all 0.8s ease;
+  }*/
 }
-#Section4 .cs {
-  color: #f5f1ff;
-  cursor: pointer;
-  text-shadow: 1px 1px 2px black;
-  opacity: 0.7;
-  transition: all 0.8s ease;
-}
-#Section4 .cs:hover {
-  opacity: 0.9;
-  text-decoration: none;
-}
-#Section4 .c1 {
+/*#Section4 .c1 {
   background: no-repeat 6% 12%/105% url(assets/var-03.jpeg);
 }
 #Section4 .c1:hover {
   background: no-repeat 6% 12%/107% url(assets/var-03.jpeg);
-}
-#Section4 .c2 {
-  background: no-repeat 6% 12%/105% url(assets/var-04.jpeg);
-}
-#Section4 .c2:hover {
-  background: no-repeat 6% 12%/107% url(assets/var-04.jpeg);
-}
-#Section4 .c3 {
-  background: no-repeat 6% 12%/105% url(assets/var-05.jpg);
-}
-#Section4 .c3:hover {
-  background: no-repeat 6% 12%/107% url(assets/var-05.jpg);
-}
-#Section4 .c4 {
-  background: no-repeat 6% 46%/120% url(assets/var-03.jpeg);
-}
-#Section4 .c4:hover {
-  background: no-repeat 6% 46%/122% url(assets/var-03.jpeg);
-}
-#Section4 .c5 {
-  background: no-repeat 6% 46%/120% url(assets/var-04.jpeg);
-}
-#Section4 .c5:hover {
-  background: no-repeat 6% 46%/122% url(assets/var-04.jpeg);
-}
+}*/
+
 .v-center {
   display: flex;
   align-items: center;
@@ -265,10 +252,6 @@ $font-noto-sans: 'Noto Sans', sans-serif;
 .dev:hover {
   color: #cbecd2;
   text-shadow: 1px 1px gray;
-}
-.cards {
-  filter: grayscale(1) opacity(0.4);
-  width: 32px;
 }
 
 #root {

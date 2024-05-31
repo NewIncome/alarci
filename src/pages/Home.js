@@ -1,5 +1,6 @@
 import logo from '../assets/hvac-icon-02.webp';
-import team from '../assets/hvac-team-01.jpg';
+//import team from '../assets/hvac-team-01.jpg';
+import case1 from '../assets/hvac-case-01.webp';
 import facebook from '../assets/facebook-ico.png';
 import instagram from '../assets/instagram-ico.png';
 import youtube from '../assets/youtube-ico.png';
@@ -93,40 +94,48 @@ const Home = () =>
         </p>
       </div>
     </section>
-    {/* ----- Section 3 - Testimonios ----- */}
-    <section id="Section4" className="container vh-100 d-flex flex-column px-5">
-      <h1 className="sec3-h text-center">
-        <b>Cat</b><b className="h-line">egor</b><b>ías</b>
-      </h1>
-      <div className="row align-content-between justify-content-between">
-        <Link className="cs c1 card col-12" to="/jabones">
-            <div className="card-body v-center">
-              <h3 className="card-title h2 text-center">Jabones</h3>
-            </div>
-        </Link>
-        <Link className="cs c2 card" to="/shampoos">
-          <div className="card-body v-center">
-            <h3 className="card-title h2 text-center">Shampoos</h3>
+    {/* ----- Section 4 - Testimonios ----- */}
+    <section id="Section4" className="container vh-100">
+      <div className="header text-center">
+        <h1 className="sec3-h">
+          <b>Nue</b><b className="h-line">stros clien</b><b>tes</b>
+        </h1>
+        <p className="sec4-p">Los siguientes son algunos de nuestros proyectos terminados</p>
+      </div>
+      <div className="cards row w-100 align-content-between justify-content-between">
+        <div className="card">
+          <img className="card-img-top" src={case1} alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">Proyecto X</h5>
+            <h6 className="card-subtitle mb-2 text-muted">Fecha o referencia</h6>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="card-link">Card link</a>
+            <a href="#" className="card-link">Another link</a>
           </div>
-        </Link>
-        <Link className="cs c3 card" to="/velas">
-          <div className="card-body v-center">
-            <h3 className="card-title h2 text-center">Velas</h3>
+        </div>
+        <div className="card">
+          <img className="card-img-top" src={case1} alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">Proyecto Y</h5>
+            <h6 className="card-subtitle mb-2 text-muted">Fecha o referencia</h6>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="card-link">Card link</a>
+            <a href="#" className="card-link">Another link</a>
           </div>
-        </Link>
-        <Link className="cs c4 card" to="/balsamos">
-          <div className="card-body v-center">
-            <h3 className="card-title h2 text-center">Cremas &amp; Balsamos</h3>
+        </div>
+        <div className="card">
+          <img className="card-img-top" src={case1} alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">Proyecto Z</h5>
+            <h6 className="card-subtitle mb-2 text-muted">Fecha o referencia</h6>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="card-link">Card link</a>
+            <a href="#" className="card-link">Another link</a>
           </div>
-        </Link>
-        <Link className="cs c5 card" to="/materiales">
-          <div className="card-body v-center">
-            <h3 className="card-title h2 text-center">Materiales</h3>
-          </div>
-        </Link>
+        </div>
       </div>
     </section>
-    {/* ----- Section 4 - Nuestros Servicios ----- */}
+    {/* ----- Section 5 - Nuestros Servicios ----- */}
     <section id="Section5" className="">
       <h1 className="pb-4">
         <b>Ca</b><b className="h-line">tálo</b><b>go</b>
@@ -139,7 +148,7 @@ const Home = () =>
         <p className="">o si solo quieres visualizarlo te lo mostramos a continuación(próximamente)</p>
       </div>
     </section>
-    {/* ----- Section 5 - Contacto ----- */}
+    {/* ----- Section 6 - Contacto ----- */}
     <section id="Section6">
       <div className="contact-text card col-5 p-5">
         <img src={logo} className="sec-img-5 card-img-top" alt="logo" />
