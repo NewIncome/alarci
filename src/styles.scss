@@ -740,7 +740,10 @@ $white-ish: #c4c4c4;
 
     .h3 { font-size: 1.8em; }
 
-    .p { margin-bottom: 5px !important; }
+    .p {
+      margin-bottom: 5px !important;
+      text-align: justify;
+    }
 
     @media screen and (max-width: 1200px) {
       min-width: 80%;

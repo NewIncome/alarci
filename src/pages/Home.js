@@ -9,6 +9,7 @@ import prj5 from '../assets/prj-05.jpg';
 import facebook from '../assets/facebook-ico.png';
 import instagram from '../assets/instagram-ico.png';
 import youtube from '../assets/youtube-ico.png';
+import ico01 from '../assets/icon-01.png';
 import { Link } from 'react-router-dom';
 
 const Home = () =>
@@ -154,12 +155,12 @@ const Home = () =>
             <span className="blur"></span>
           </div>
           <div className="prj-right">
-          <h3 className="h3 prj-title">Flujo Laminar</h3><i>Tipos de sitios</i>
-            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 className="h3 prj-title">Flujo Laminar</h3><i>Comercial • Industrial</i>
+            <p className="p prj-text">El flujo laminar es esencial en proyectos de aire acondicionado y salas limpias. Se caracteriza por un movimiento ordenado y suave del fluido, con partículas siguiendo líneas de corriente paralelas. Las salas blancas utilizan flujos unidireccionales (flujos laminares) para proteger procesos críticos, y las velocidades recomendadas varían según normativas. En resumen, el flujo laminar garantiza áreas de trabajo libres de partículas y contaminación, protegiendo productos durante la manipulación y aislando el entorno circundante.</p>
             <div className="prj-codes">
               <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
                 <span>Más información </span>
-                <img src="" alt="" className="s-ico" />
+                <img src={ico01} alt="" className="s-ico" />
               </a>
             </div>
             <div className="co-op">Detalle addicional</div>
@@ -168,12 +169,12 @@ const Home = () =>
 
         <div className="project"  id="prj2">
           <div className="prj-right">
-            <h3 className="h3 prj-title">Extracción</h3><i>Tipos de sitios</i>
-            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 className="h3 prj-title">Extracción</h3><i>Residencial • Comercial • Industrial</i>
+            <p className="p prj-text">La extracción en proyectos de aire acondicionado es esencial para mantener la calidad del aire interior, eliminando el aire viciado y reemplazándolo con aire fresco. Los sistemas de extracción, que pueden incluir ventiladores y ductos, deben diseñarse considerando el tamaño del espacio, la cantidad de personas y las fuentes de contaminación, cumpliendo con las normativas locales. Un buen mantenimiento, como la limpieza regular de los ductos, es vital para su funcionamiento óptimo.</p>
             <div className="prj-codes">
               <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
                 <span>Más información </span>
-                <img src="" alt="" className="s-ico" />
+                <img src={ico01} alt="" className="s-ico" />
               </a>
             </div>
             <div className="co-op">Detalle addicional</div>
@@ -190,12 +191,12 @@ const Home = () =>
             <span className="blur"></span>
           </div>
           <div className="prj-right">
-          <h3 className="h3 prj-title">Chillers</h3><i>Tipos de sitios</i>
-            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 className="h3 prj-title">Chillers</h3><i>Comercial • Industrial</i>
+            <p className="p prj-text">Los chillers son sistemas de aire acondicionado que enfrían agua para distribuir aire frío a través de una Unidad Manejadora de Aire (UMA) en espacios grandes como oficinas y hospitales. Funcionan enfriando el agua hasta aproximadamente 6°C y utilizan componentes como compresor, condensador, evaporador y válvula de expansión. Existen dos tipos principales: enfriados por aire y enfriados por agua, siendo estos últimos más eficientes energéticamente. Son ideales para proyectos de gran escala debido a su capacidad y eficiencia.</p>
             <div className="prj-codes">
               <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
                 <span>Más información </span>
-                <img src="" alt="" className="s-ico" />
+                <img src={ico01} alt="" className="s-ico" />
               </a>
             </div>
             <div className="co-op">Detalle addicional</div>
@@ -204,12 +205,14 @@ const Home = () =>
 
         <div className="project"  id="prj2">
           <div className="prj-right">
-            <h3 className="h3 prj-title">Aire Acondicionado</h3><i>Tipos de sitios</i>
-            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 className="h3 prj-title">Aire Acondicionado</h3><i>Residencial • Comercial • Industrial</i>
+            <p className="p prj-text">○ Los proyectos de aire acondicionado y calefacción en aplicaciones residenciales buscan proporcionar confort térmico en los hogares mediante sistemas como unidades split, calefacción central y bombas de calor, considerando la eficiencia energética y la integración estética.
+            <br/>○ En el ámbito comercial, se utilizan sistemas como VRV, UMA y chillers para mantener un ambiente confortable y saludable en oficinas y tiendas, enfriando grandes áreas con control zonal y eficiencia energética.
+            <br/>○ En aplicaciones industriales, estos proyectos controlan la temperatura y humedad en procesos industriales y protegen equipos sensibles mediante sistemas HVAC a gran escala, chillers industriales y enfriamiento por evaporación. Estos proyectos requieren alta capacidad de enfriamiento, robustez y eficiencia operativa, asegurando un ambiente adecuado y eficiente en cada aplicación.</p>
             <div className="prj-codes">
               <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
                 <span>Más información </span>
-                <img src="" alt="" className="s-ico" />
+                <img src={ico01} alt="" className="s-ico" />
               </a>
             </div>
             <div className="co-op">Detalle addicional</div>
@@ -226,12 +229,12 @@ const Home = () =>
             <span className="blur"></span>
           </div>
           <div className="prj-right">
-          <h3 className="h3 prj-title">Equipos de Precisión</h3><i>Tipos de sitios</i>
-            <p className="p prj-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 className="h3 prj-title">Equipos de Precisión</h3><i>Comercial • Industrial</i>
+            <p className="p prj-text">Los proyectos de aire acondicionado para equipos de precisión son esenciales para mantener condiciones óptimas de temperatura y humedad en entornos críticos como centros de datos, laboratorios, y salas de telecomunicaciones. Estos sistemas ofrecen control preciso de temperatura y humedad, alta eficiencia energética y son aplicables en diversos entornos como data centers, laboratorios y hospitales, asegurando la protección de equipos sensibles y optimizando el uso de recursos.</p>
             <div className="prj-codes">
               <a href="" className="bttn-l" target="_blank" rel="noreferrer noopener">
                 <span>Más información </span>
-                <img src="" alt="" className="s-ico" />
+                <img src={ico01} alt="" className="s-ico" />
               </a>
             </div>
             <div className="co-op">Detalle addicional</div>
