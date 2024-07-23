@@ -5,21 +5,123 @@
   font-style: normal;
   font-size: 16px;
   letter-spacing: .5px;
-  line-height: 1.75 !important;
+  line-height: 1.75;
 
   .section-header {
     background-image: linear-gradient(#3336, #3336), url(../assets/us-01.jpg);
   }
 
-  .container article {
-    margin: auto;
-
-    h3 {
-      padding-top: 16px;
+  .container {
+    article {
+      margin-bottom: 3rem !important;
     }
 
-    img {
-      max-width: 100%;
+    .cont-div { margin: auto; }
+
+    .ad {
+      h2 { margin-bottom: 1.5rem; }
+    }
+
+    .MVV {
+      background-color: #eee;
+      margin: 0 -16%;
+      padding: 25px 16%;
+
+      h3 {
+        color: #032f56;
+        text-shadow: 1px 1px 1px #666;
+        margin-bottom: 18px;
+        padding-top: 16px;
+      }
+
+      img {
+        width: 50px;
+        margin: 10px 0;
+      }
+    }
+
+    .mision, .vision {
+      line-height: 2.3 !important;
+    }
+    .mision {
+      background-color: #eaffe6;
+      img { filter: grayscale(1); }
+    }
+    .vision {
+      background-color: #e6f4ff;
+      img { opacity: 0.7; }
+    }
+    .valores {
+      background-color: #ffece6;
+      img { opacity: 0.7; }
+      details {
+        margin-bottom: 5px;
+      }
+    }
+
+    .ad-right {
+      .ad-right-img {
+        border-radius: 35px;
+        width: 85% !important;
+        margin: auto;
+      }
+    }
+
+    .NSyC-left {
+      padding: 20px 15px;
+
+      .NSyC-left-img {
+        background: url(../assets/AC-04.jpg);
+        background-attachment: fixed;
+        background-size: 76%; /* Optional: adjust background size */
+        border-radius: 5px;
+        height: 100%;
+        filter: brightness(0.9);
+        opacity: 0.9;
+      }
+    }
+
+    .NSyC-right {
+      h3 { text-align: center; }
     }
   }
+
+  .contactus {
+    background-color: #ffeee4;
+    border-radius: 5px;
+
+    .article-footer {
+      font-size: 1.3rem;
+      //font-family: 'Apple Chancery', cursive;
+      color: #001567;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-4- {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+    max-width: 32%;
+  }
+}
+
+@media (min-width: 1018px) {
+  .flex-md-row-rev- {
+    -ms-flex-direction: row-reverse !important;
+    flex-direction: row-reverse !important;
+  }
+  .d-md-flex- {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .col-md-6- {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 1018px) {
+  .NSyC-left { height: 100vh !important; }
+  .NSyC-left-img { background-size: cover !important; }
 }
