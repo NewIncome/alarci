@@ -68,7 +68,9 @@ const Home = () =>
     <section id="Section2" className="container px-3 px-md-5">
       <div className="d-md-flex text-md-left text-center justify-content-md-between">
         <h2 className="h2-contact-btn">Cuéntanos de tu proyecto y con gusto te asistiremos.</h2>
-        <a href="#" className="btn btn-warning btn-lg align-self-center" role="button" aria-pressed="true">Ponte en contacto</a>
+        <Link className="btn btn-warning btn-lg align-self-center" to="/contacto">
+          Ponte en contacto
+        </Link>
       </div>
     </section>
     {/* ----- Section 3 - Nosotros ----- */}

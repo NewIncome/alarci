@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact px-5">
+    <div className="contact px-5 contacto">
       <div className="section-header contact-h">
         {/*< img src={header} className="section-header-img" alt="Contact Header" />*/}
         <h2 className="prods-title text-center mb-5 pt-4">
