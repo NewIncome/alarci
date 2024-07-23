@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/alarci/static/css/main.a1feb827.css",
-    "main.js": "/alarci/static/js/main.3f160846.js",
+    "main.css": "/alarci/static/css/main.8d0d28c6.css",
+    "main.js": "/alarci/static/js/main.899f5213.js",
     "static/js/787.3294af58.chunk.js": "/alarci/static/js/787.3294af58.chunk.js",
+    "static/media/us-01.jpg": "/alarci/static/media/us-01.ff515a75b5fa6d7d45b9.jpg",
     "static/media/AC-05.jpg": "/alarci/static/media/AC-05.c101562dd27634512165.jpg",
     "static/media/prj-03.jpg": "/alarci/static/media/prj-03.1e6e3f518da3716c1df8.jpg",
     "static/media/AC-Repair3.jpg": "/alarci/static/media/AC-Repair3.08746eb6bee0b32dbabe.jpg",
+    "static/media/AC-04.jpg": "/alarci/static/media/AC-04.cdd8dd48bcae4f77b65e.jpg",
     "static/media/prj-01.jpg": "/alarci/static/media/prj-01.40903864b4f8ade0e133.jpg",
-    "static/media/var-07.jpg": "/alarci/static/media/var-07.bf1d0a3d2bc8b568cc2b.jpg",
     "static/media/prj-02.jpg": "/alarci/static/media/prj-02.232f5082b691a7e6da21.jpg",
     "static/media/prj-05.jpg": "/alarci/static/media/prj-05.cffb1b592025c1281f1a.jpg",
     "static/media/AC-02.jpg": "/alarci/static/media/AC-02.37e083c646978f408b7b.jpg",
     "static/media/hvac-case-01.webp": "/alarci/static/media/hvac-case-01.3dd716129ac6bed81b0e.webp",
-    "static/media/var-02.jpeg": "/alarci/static/media/var-02.7c299f08190b4eedff45.jpeg",
     "static/media/AC-01.jpg": "/alarci/static/media/AC-01.a301ba39a27706081fe0.jpg",
-    "static/media/var-03.jpeg": "/alarci/static/media/var-03.292cf295ae0e1bb60e22.jpeg",
-    "static/media/var-05.jpg": "/alarci/static/media/var-05.0bf8337b122ad5c96836.jpg",
+    "static/media/hvac-team-02.jpg": "/alarci/static/media/hvac-team-02.431df19be2437d8ef1e1.jpg",
     "static/media/prj-04.jpg": "/alarci/static/media/prj-04.062f926d5162266a81db.jpg",
     "static/media/hvac-icon-02.webp": "/alarci/static/media/hvac-icon-02.fad871e0146d9d81a83e.webp",
-    "static/media/var-04.jpeg": "/alarci/static/media/var-04.58485a6038811a779cad.jpeg",
+    "static/media/icon-01.png": "/alarci/static/media/icon-01.883b3ad5a8d2dce18a00.png",
     "index.html": "/alarci/index.html",
-    "main.a1feb827.css.map": "/alarci/static/css/main.a1feb827.css.map",
-    "main.3f160846.js.map": "/alarci/static/js/main.3f160846.js.map",
+    "main.8d0d28c6.css.map": "/alarci/static/css/main.8d0d28c6.css.map",
+    "main.899f5213.js.map": "/alarci/static/js/main.899f5213.js.map",
     "787.3294af58.chunk.js.map": "/alarci/static/js/787.3294af58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1feb827.css",
-    "static/js/main.3f160846.js"
+    "static/css/main.8d0d28c6.css",
+    "static/js/main.899f5213.js"
   ]
 }
