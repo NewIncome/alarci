@@ -1,8 +1,31 @@
 import logo from '../assets/hvac-icon-02.webp';
 import { Link } from 'react-router-dom';
+import { useRef, useEffect } from 'react';
 
-const Navbar = () =>
-      <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
+const Navbar = () => {
+  const dropdownRef = useRef(null);
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && (!dropdownRef.current.contains(event.target))
+        || event.target.className == "nav-link"
+        || event.target.className == "dropdown-item"
+        || event.target.className == "logo") {
+      let navbttn = document.querySelector('.navbar-toggler')
+      navbttn.className = "navbar-toggler collapsed"
+      navbttn.setAttribute('aria-expanded', 'false')
+
+      let toggler = document.getElementById('navbarTogglerDemo03')
+      toggler.className = "navbar-collapse flex-grow-0 collapse"
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [dropdownRef]);
+
+  return (
+      <nav ref={dropdownRef} className="navbar navbar-expand-lg navbar-light justify-content-between">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
@@ -17,13 +40,13 @@ const Navbar = () =>
               </Link>
             </li>
             <li className="nav-item nav-dot"><span className="nav-link ndot"></span></li>
-            <li className="nav-item" key="li1">
+            <li className="nav-item" key="li2">
               <Link className="nav-link" to="#">
                 Proyectos<span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item nav-dot"><span className="nav-link ndot"></span></li>
-            <li className="nav-item dropdown" key="li2">
+            <li className="nav-item dropdown" key="li3">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Nuestros Servicios
               </a>
@@ -36,13 +59,15 @@ const Navbar = () =>
               </div>
             </li>
             <li className="nav-item nav-dot"><span className="nav-link ndot"></span></li>
-            <li className="nav-item" key="li3">
+            <li className="nav-item" key="li4">
               <Link className="nav-link" to="/contacto">
                 Contacto
               </Link>
             </li>
           </ul>
         </div>
-      </nav>;
+      </nav>
+  );
+};
 
 export default Navbar;
