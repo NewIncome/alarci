@@ -12,7 +12,7 @@ const Navbar = () =>
         <div className="collapse navbar-collapse flex-grow-0" id="navbarTogglerDemo03">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item" key="li1">
-              <Link className="nav-link" to="#">
+              <Link className="nav-link" to="/nosotros">
                 Nosotros<span className="sr-only">(current)</span>
               </Link>
             </li>

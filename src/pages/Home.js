@@ -29,7 +29,9 @@ const Home = () =>
               <div className="carousel-caption text-left">
                 <h1>Empresa líder en equipos de A/C</h1>
                 <p>Diseño, fabricación e instalación</p>
-                <p><a className="btn btn-lg btn-primary" href="#" role="button">Conoce más</a></p>
+                <p><Link className="btn btn-lg btn-primary" to="/nosotros">
+                  Conoce más
+                </Link></p>
               </div>
             </div>
           </div>
