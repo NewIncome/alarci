@@ -1,8 +1,31 @@
-import logo from '../assets/logo.jpg';
+import logo from '../assets/hvac-icon-02.webp';
 import { Link } from 'react-router-dom';
+import { useRef, useEffect } from 'react';
 
-const Navbar = () =>
-      <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
+const Navbar = () => {
+  const dropdownRef = useRef(null);
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && (!dropdownRef.current.contains(event.target))
+        || event.target.className == "nav-link"
+        || event.target.className == "dropdown-item"
+        || event.target.className == "logo") {
+      let navbttn = document.querySelector('.navbar-toggler')
+      navbttn.className = "navbar-toggler collapsed"
+      navbttn.setAttribute('aria-expanded', 'false')
+
+      let toggler = document.getElementById('navbarTogglerDemo03')
+      toggler.className = "navbar-collapse flex-grow-0 collapse"
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [dropdownRef]);
+
+  return (
+      <nav ref={dropdownRef} className="navbar navbar-expand-lg navbar-light justify-content-between">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
@@ -12,29 +35,39 @@ const Navbar = () =>
         <div className="collapse navbar-collapse flex-grow-0" id="navbarTogglerDemo03">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item" key="li1">
-              <Link className="nav-link" to="/catalogo">
-                Catálogo<span className="sr-only">(current)</span>
+              <Link className="nav-link" to="/nosotros">
+                Nosotros<span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li className="nav-item dropdown" key="li2">
+            <li className="nav-item nav-dot"><span className="nav-link ndot"></span></li>
+            <li className="nav-item" key="li2">
+              <Link className="nav-link" to="#">
+                Proyectos<span className="sr-only">(current)</span>
+              </Link>
+            </li>
+            <li className="nav-item nav-dot"><span className="nav-link ndot"></span></li>
+            <li className="nav-item dropdown" key="li3">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Productos
+                Nuestros Servicios
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <Link className="dropdown-item" to="/jabones">Jabones</Link>
-                <Link className="dropdown-item" to="/shampoos">Shampoos</Link>
-                <Link className="dropdown-item" to="/velas">Velas</Link>
-                <Link className="dropdown-item" to="/balsamos">Cremas y Balsamos</Link>
-                <Link className="dropdown-item" to="/materiales">Materiales</Link>
+                <Link className="dropdown-item" to="#">Flujo Laminar</Link>
+                <Link className="dropdown-item" to="#">Extracción</Link>
+                <Link className="dropdown-item" to="#">Chillers</Link>
+                <Link className="dropdown-item" to="#">Aire Acondicionado</Link>
+                <Link className="dropdown-item" to="#">Equipos de Precisión</Link>
               </div>
             </li>
-            <li className="nav-item" key="li3">
+            <li className="nav-item nav-dot"><span className="nav-link ndot"></span></li>
+            <li className="nav-item" key="li4">
               <Link className="nav-link" to="/contacto">
                 Contacto
               </Link>
             </li>
           </ul>
         </div>
-      </nav>;
+      </nav>
+  );
+};
 
 export default Navbar;

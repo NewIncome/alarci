@@ -1,3 +1,4 @@
+import header from '../assets/AC-Repair3.jpg';
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 const creds = require('../utils/config');
@@ -15,7 +16,7 @@ const Contact = () => {
     const templateParams = {
       from_name: name,
       from_email: email,
-      to_name: 'Mi Eco Tiendita SITE',
+      to_name: 'Alarci SA de CV, sitio web',
       message: mssg
     };
 
@@ -35,11 +36,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact px-5">
-      <h2 className="prods-title text-center mb-5 pt-4">
-        <b>Contacto</b>
-        <hr className="h-line bar" />
-      </h2>
+    <div className="contact px-5 contacto">
+      <div className="section-header contact-h">
+        {/*< img src={header} className="section-header-img" alt="Contact Header" />*/}
+        <h2 className="prods-title text-center mb-5 pt-4">
+          <b>Contáctanos</b>
+        </h2>
+      </div>
 
       <div className="form-div">
         <form onSubmit={handleSubmit}>
@@ -65,7 +68,7 @@ const Contact = () => {
               onChange={e => setEmail(e.target.value)}
             />
             <small id="emailHelp" className="form-text text-muted">Debe ser un correo válido.</small>
-            <div className="custom-control custom-switch">
+            <div className="custom-control custom-switch mb-2">
               <input type="checkbox" className="custom-control-input" id="customSwitch1" />
               <label className="custom-control-label" for="customSwitch1">Urgente?</label>
             </div>
