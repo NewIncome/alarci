@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alarci/static/css/main.8d0d28c6.css",
-    "main.js": "/alarci/static/js/main.899f5213.js",
+    "main.css": "/alarci/static/css/main.f13ca0fd.css",
+    "main.js": "/alarci/static/js/main.1b8443cc.js",
     "static/js/787.3294af58.chunk.js": "/alarci/static/js/787.3294af58.chunk.js",
     "static/media/us-01.jpg": "/alarci/static/media/us-01.ff515a75b5fa6d7d45b9.jpg",
     "static/media/AC-05.jpg": "/alarci/static/media/AC-05.c101562dd27634512165.jpg",
@@ -19,12 +19,12 @@
     "static/media/hvac-icon-02.webp": "/alarci/static/media/hvac-icon-02.fad871e0146d9d81a83e.webp",
     "static/media/icon-01.png": "/alarci/static/media/icon-01.883b3ad5a8d2dce18a00.png",
     "index.html": "/alarci/index.html",
-    "main.8d0d28c6.css.map": "/alarci/static/css/main.8d0d28c6.css.map",
-    "main.899f5213.js.map": "/alarci/static/js/main.899f5213.js.map",
+    "main.f13ca0fd.css.map": "/alarci/static/css/main.f13ca0fd.css.map",
+    "main.1b8443cc.js.map": "/alarci/static/js/main.1b8443cc.js.map",
     "787.3294af58.chunk.js.map": "/alarci/static/js/787.3294af58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d0d28c6.css",
-    "static/js/main.899f5213.js"
+    "static/css/main.f13ca0fd.css",
+    "static/js/main.1b8443cc.js"
   ]
 }
