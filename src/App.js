@@ -3,6 +3,7 @@ import ErrorPage from './pages/ErrorPage';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import AboutUs from './pages/AboutUs';
+import Projects from './pages/Projects';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 const router = createHashRouter([
@@ -21,6 +22,10 @@ const router = createHashRouter([
       {
         path: '/nosotros',
         element: <AboutUs />
+      },
+      {
+        path: '/proyectos',
+        element: <Projects />
       }
     ]
   }

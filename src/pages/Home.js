@@ -193,7 +193,7 @@ const Home = () =>
         <div className="project"  id="prj2">
           <div className="prj-right">
             <h3 className="h3 prj-title">Aire Acondicionado</h3><i>Residencial • Comercial • Industrial</i>
-            <p className="p prj-text">○ Los proyectos de aire acondicionado y calefacción en aplicaciones residenciales buscan proporcionar confort térmico en los hogares mediante sistemas como unidades split, calefacción central y bombas de calor, considerando la eficiencia energética y la integración estética.
+            <p className="p prj-text lg-txt">○ Los proyectos de aire acondicionado y calefacción en aplicaciones residenciales buscan proporcionar confort térmico en los hogares mediante sistemas como unidades split, calefacción central y bombas de calor, considerando la eficiencia energética y la integración estética.
             <br/>○ En el ámbito comercial, se utilizan sistemas como VRV, UMA y chillers para mantener un ambiente confortable y saludable en oficinas y tiendas, enfriando grandes áreas con control zonal y eficiencia energética.
             <br/>○ En aplicaciones industriales, estos proyectos controlan la temperatura y humedad en procesos industriales y protegen equipos sensibles mediante sistemas HVAC a gran escala, chillers industriales y enfriamiento por evaporación. Estos proyectos requieren alta capacidad de enfriamiento, robustez y eficiencia operativa, asegurando un ambiente adecuado y eficiente en cada aplicación.</p>
             <div className="prj-codes">
