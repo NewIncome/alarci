@@ -1,5 +1,3 @@
-import '../styles/components.scss';
-
 const Card = ({ className, children, ...props }) => {
   return (
     <div className={`rounded-xl border bg-card

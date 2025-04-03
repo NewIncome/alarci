@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "../components/button";
 //import { Card } from "@/components/ui/card";
 import { ChevronLeft, ChevronRight, Phone, Mail, Target, Eye } from "lucide-react";
+import '../styles/components.scss';
 
 export default function Projects() {
   const [currentSlide, setCurrentSlide] = useState(0);

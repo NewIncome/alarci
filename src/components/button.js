@@ -1,5 +1,3 @@
-import '../styles/components.scss';
-
 const Button = ({ className, children, ...props }) => {
   return (
     <button

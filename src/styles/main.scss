@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 // *** Variables ***
 $font-dejavu-mono: 'DejaVu Sans Mono', monospace;
 $font-free: FreeMono, monospace;
@@ -793,11 +789,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    //test
-    .lg-txt {
-      max-height: 195px;
-      overflow: auto;
-    }
   }
 }
 
