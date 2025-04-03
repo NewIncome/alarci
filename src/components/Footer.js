@@ -11,7 +11,7 @@ const Footer = () =>
     </div>
     <div className="col-sm-5 text-sm-right d-flex flex-column">
       <div className="payments">
-        <div className="pt-3 pt-sm-0" data-toggle="tooltip" data-placement="top" title="Próximamente">
+        <div className="card-gp pt-3 pt-sm-0" data-toggle="tooltip" data-placement="top" title="Próximamente">
           <img src={visa} alt="visa" className="cards vs-c" />
           <svg className="cards icon mc-c" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width={38} height={24} aria-labelledby="pi-master">
             <title id="pi-master">Mastercard</title>
