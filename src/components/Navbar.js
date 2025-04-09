@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item nav-dot"><span className="nav-link ndot"></span></li>
             <li className="nav-item" key="li2">
-              <Link className="nav-link" to="#">
+              <Link className="nav-link" to="/proyectos">
                 Proyectos<span className="sr-only">(current)</span>
               </Link>
             </li>
@@ -51,11 +51,11 @@ const Navbar = () => {
                 Nuestros Servicios
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <Link className="dropdown-item" to="#">Flujo Laminar</Link>
-                <Link className="dropdown-item" to="#">Extracción</Link>
-                <Link className="dropdown-item" to="#">Chillers</Link>
-                <Link className="dropdown-item" to="#">Aire Acondicionado</Link>
-                <Link className="dropdown-item" to="#">Equipos de Precisión</Link>
+                <Link className="dropdown-item" to="#Section1">Flujo Laminar</Link>
+                <Link className="dropdown-item" to="#Section2">Extracción</Link>
+                <Link className="dropdown-item" to="#Section3">Chillers</Link>
+                <Link className="dropdown-item" to="#Section4">Aire Acondicionado</Link>
+                <Link className="dropdown-item" to="#Section5">Equipos de Precisión</Link>
               </div>
             </li>
             <li className="nav-item nav-dot"><span className="nav-link ndot"></span></li>

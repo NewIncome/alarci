@@ -74,3 +74,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Paginas de referencia
+- https://acproyectos.com  /proyectos
+- https://www.eurofred.com
+- https://www.hitachiaircon.com
+- friotemp.com.pe
+- hcsperu.com
+
+1. GoSite – Mejores sitios web de HVAC
+https://www.gosite.com/es/blog/los-mejores-sitios-web-de-hvac
+
+2. Grupo MPG – Climatización y energías renovables
+https://grupompg.com
+
+3. Samsung Climatización – Bomba de calor y soluciones para el hogar
+https://samsung-climatesolutions.com/es/b2c.html
+
+4. Geypro Ingenieros – Proyectos de climatización industrial
+https://www.geypro-ingenieros.es/proyectos-de-instalaciones/proyectos-de-climatizacion
+
+5. ACR Latinoamérica – Noticias y recursos HVAC/R
+https://www.acrlatinoamerica.com
+
+6. Area Cooling Solutions – Soluciones de refrigeración y climatización
+https://areacooling.com/es
+
+7. Trane HVAC Comercial – Sistemas y soluciones profesionales
+https://www.trane.com/commercial/latin-america/mx/es.html
+
+8. Cimelsa – Proyectos industriales de climatización
+https://www.cimelsa.com/es/proyectos
+
+9. AAIC Ingeniería – Proyectos de aire acondicionado a medida
+https://www.aaicingenieria.com
+
+10. Hitecsa – Sistemas de climatización para múltiples sectores
+https://www.hitecsa.com
